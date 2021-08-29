@@ -1,0 +1,25 @@
+/* set all the textboxes to a standard width of 250px */
+input {
+    width: 250px;
+}
+/* set all the buttons to a standard width of 257px */
+button {
+width: 257px;
+}
+/* set all the drop down lists to a standard width of 257px */
+select {
+width: 257px;
+}
+/* set the Average price and stock level table to a standard width of 257px */
+table {
+    width: 400px;
+}
+/* align all of the table head cells to the left */
+th {
+    text-align: left;
+}
+/* set the border of all of the even table child cells to 7px */
+tr:nth-child(even){
+ 
+    border: 7px;
+}

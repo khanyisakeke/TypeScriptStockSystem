@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+       
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>Add Stock</h3>
+        Select a Product Code
+        <br>
+        <br>
+        <select id="firstProductList">
+            <option value="select">--Select--</option>
+            <option value="product1">PRODUCT1</option>
+            <option value="product2">PRODUCT2</option>
+            <option value="product3">PRODUCT3</option>
+        </select>
+        <br>
+        <br>
+        Items Received
+        <br>
+        <br>
+        <input type="text" id="itemsReceived">
+        <br>
+        Price per Item Received
+        <br>
+        <br>
+        <input type="text" id="itemsPrice">
+        <br>
+        <br>
+        <button type="button" id="btnAddStock">Add Stock</button>
+    </form>
+    
+    <form>
+        <h3>Remove Stock</h3>
+        Select a Product Code
+        <br>
+        <br>
+        <select id="secondProductList">
+            <option value="select">--Select--</option>
+            <option value="product1">PRODUCT1</option>
+            <option value="product2">PRODUCT2</option>
+            <option value="product3">PRODUCT3</option>
+        </select>
+        <br>
+        <br>
+        Buyer Email Address
+        <br>
+        <br>
+        <input type="text" id="buyerEmailAddress">
+        <br>
+        <br>
+       Items Bought
+        <br>
+        <br>
+        <input type="text" id="itemsBought">
+        <br>
+        <br>
+        <button type="button" id="btnItemsShipped">Items Shipped</button>
+    </form>
+
+    <form>
+        <br>
+        
+        <h3>STOCK LEVELS</h3>
+        <table id ="tableStockLevels">
+            <tr>
+                <th>
+                    PRODUCTO1
+                </th>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    PRODUCTO2
+                </th>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    0
+                </td>
+                
+            </tr>
+            <tr>
+                <th>PRODUCT03</th>
+                <td>
+                    0
+                </td>
+            <tr>
+                <td>
+                    0
+                </td>
+            </tr>         
+            </tr>
+            
+        </table>
+    </form>
+
+   
+
+</body>
+<script src="main.js"></script>
+</html>
